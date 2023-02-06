@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://github.com/ehsan0x/ehsan0xblog/blob/main/public/static/images/logo.png" width="100" />
+  <img alt="Logo" src="https://github.com/ehsan0x/ehsan0xblog/raw/main/public/static/images/logo.png" width="100" />
 </div>
 
 <h1 align="center">
@@ -7,7 +7,7 @@
 </h1>
 
 <p align="center">
-  This is my personal portfolio blog hosted <a href="https://musing.vercel.app/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
+  This is my personal portfolio blog hosted <a href="https://ehsan0x.com/" target="_blank">here</a> built with <a href="https://nextjs.org/" target="_blank">Next.js</a>, <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a> and hosted with <a href="https://www.vercel.com/" target="_blank">Vercel</a>.
 </p>
 
 <p align="center">
@@ -16,11 +16,11 @@
 
 <div align="center">
 
-<a href="https://musing.vercel.app/" target="blank" >![View Demo](https://img.shields.io/badge/-View%20Demo%20-orange?color=%23DE1D8D&style=for-the-badge)</a> <a href="https://github.com/pycoder2000/blog/issues/new?assignees=&labels=bug&template=bug_report.md&title=">![Report Bug](https://img.shields.io/badge/-Report%20Bug%20-orange?color=%23ee0701&style=for-the-badge)</a> <a href="https://github.com/pycoder2000/blog/issues/new?assignees=&labels=&template=feature_request.md&title=">![Request Feature](https://img.shields.io/badge/-Request%20Feature%20-orange?color=%230e8a16&style=for-the-badge)</a> <a href="https://github.com/pycoder2000/blog/fork">![Fork](https://img.shields.io/github/forks/pycoder2000/blog?color=%23bfe5bf&style=for-the-badge)</a> <img src="https://img.shields.io/github/stars/pycoder2000/blog?color=darkgreen&style=for-the-badge">
+<a href="https://ehsan0x.com/" target="blank" >![View Demo](https://img.shields.io/badge/-View%20Demo%20-orange?color=%23DE1D8D&style=for-the-badge)</a> <a href="https://github.com/ehsan0x/ehsan0xblog/issues/new?assignees=&labels=bug&template=bug_report.md&title=">![Report Bug](https://img.shields.io/badge/-Report%20Bug%20-orange?color=%23ee0701&style=for-the-badge)</a> <a href="https://github.com/ehsan0x/ehsan0xblog/issues/new?assignees=&labels=&template=feature_request.md&title=">![Request Feature](https://img.shields.io/badge/-Request%20Feature%20-orange?color=%230e8a16&style=for-the-badge)</a> <a href="https://github.com/ehsan0x/ehsan0xblog/fork">![Fork](https://img.shields.io/github/forks/ehsan0x/ehsan0xblog?color=%23bfe5bf&style=for-the-badge)</a> <img src="https://img.shields.io/github/stars/ehsan0x/ehsan0xblog?color=darkgreen&style=for-the-badge"> 
 
 </div>
 
-![demo](https://github.com/pycoder2000/blog/raw/master/public/static/images/demo.png)
+<!-- ![demo](https://github.com/pycoder2000/blog/raw/master/public/static/images/demo.png) -->
 
 <div align="center">
 
@@ -162,7 +162,7 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 
 ## 📈 Stats
 
-<img src="https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fmusings.vercel.app"> <img src="https://img.shields.io/github/repo-size/pycoder2000/blog?style=for-the-badge&color=darkgreen" /> <img src="https://img.shields.io/github/languages/top/pycoder2000/blog?style=for-the-badge" /> <img src="https://img.shields.io/github/commit-activity/m/pycoder2000/blog?style=for-the-badge&color=orange" /> <img src="https://img.shields.io/github/deployments/pycoder2000/blog/Preview%20–%20blog?style=for-the-badge" /> <a href="https://tech-blogs.dev" target="_blank" >![Featured on tech-blogs.dev](https://img.shields.io/badge/Featured-tech--blogs.dev-yellow?style=for-the-badge)</a> <a href="https://makeapullrequest.com" target="blank" >![PRs Welcome](https://img.shields.io/badge/PR-Welcome-brightgreen?style=for-the-badge)</a>
+<img src="https://img.shields.io/website?down_color=red&down_message=offline&style=for-the-badge&up_color=green&up_message=online&url=https%3A%2F%2Fehsan0x.com"> <img src="https://img.shields.io/github/repo-size/ehsan0x/ehsan0xblog?style=for-the-badge&color=darkgreen" /> <img src="https://img.shields.io/github/languages/top/ehsan0x/ehsan0xblog?style=for-the-badge" /> <img src="https://img.shields.io/github/commit-activity/m/ehsan0x/ehsan0xblog?style=for-the-badge&color=orange" /> <img src="https://img.shields.io/github/deployments/ehsan0x/ehsan0xblog/Preview%20–%20blog?style=for-the-badge" /> <a href="https://makeapullrequest.com" target="blank" >![PRs Welcome](https://img.shields.io/badge/PR-Welcome-brightgreen?style=for-the-badge)</a>
 
 ## 🪜 Project structure
 
@@ -198,7 +198,7 @@ Follow the interactive prompt to generate a post with pre-filled front matter.
 **Vercel**  
 The easiest way to deploy the template is to use the [Vercel Platform](https://vercel.com) from the creators of Next.js. Check out the [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/timlrx/tailwind-nextjs-starter-blog)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ehsan0x/ehsan0xblog)
 
 ## 🍰 Contributing
 
