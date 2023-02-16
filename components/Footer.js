@@ -11,8 +11,8 @@ export default function Footer() {
         </div>
         <div className="mb-2 hidden text-sm text-gray-500 dark:text-gray-400 md:flex">
           <div className="mx-1">
-            <Link href="https://parthdesai.vercel.app" className="link-underline">
-              Parth Desai{` © ${new Date().getFullYear()}`}
+            <Link href="https://ehsan0x.com/" className="link-underline">
+              ehsan0x{` © ${new Date().getFullYear()}`}
             </Link>
           </div>
           {`•`}
@@ -30,8 +30,8 @@ export default function Footer() {
         </div>
         <div className="mb-2 text-sm text-gray-500 dark:text-gray-400 sm:block md:hidden lg:hidden">
           <div className="mx-1">
-            <Link href="https://parthdesai.vercel.app" className="link-underline">
-              Parth{` © ${new Date().getFullYear()}`}
+            <Link href="https://ehsan0x.com" className="link-underline">
+              Ehsan {` © ${new Date().getFullYear()}`}
             </Link>
           </div>
         </div>

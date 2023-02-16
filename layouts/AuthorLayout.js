@@ -2,7 +2,7 @@ import Image from '@/components/Image'
 import { PageSEO } from '@/components/SEO'
 import Link from '@/components/Link'
 import Experience from '@/components/Experience'
-import experienceData from '@/data/experienceData'
+import experiences from '@/data/experiences'
 import { RoughNotation } from 'react-rough-notation'
 import { AiOutlineTwitter } from 'react-icons/ai'
 
@@ -47,8 +47,8 @@ export default function AuthorLayout({ children, frontMatter }) {
             <div className="flex flex-col pt-3">
               <a
                 className="rounded-full border px-8 py-2 text-center text-sm font-light text-gray-700 transition-colors hover:border-[#1DA1F2] hover:bg-[#1DA1F2] hover:text-white hover:shadow dark:text-white"
-                href="https://twitter.com/messages/compose?recipient_id=4302974298&text=Hey Parth"
-                data-screen-name="@lone_Musk"
+                href="https://twitter.com/messages/769959800-769959800?text=Hey Ehsan!"
+                data-screen-name="@EhsanMamakani"
                 target="_blank"
                 rel="noreferrer noopener"
               >
@@ -63,16 +63,16 @@ export default function AuthorLayout({ children, frontMatter }) {
                 type="bracket"
                 brackets={['left', 'right']}
                 show={true}
-                color="#FF0000"
+                color="#de1d8d"
                 animationDelay={300}
                 animationDuration={3000}
               >
-                {text1} Currently, I am focused on building data pipelines and automating them at{' '}
+                {text1} {text2}{' '}
                 <Link
-                  href={'https://www.accenture.com/in-en'}
+                  href={'https://www.pongstudios.com/'}
                   className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
                 >
-                  Accenture
+                  Pong Game Studios
                 </Link>
               </RoughNotation>
             </p>
@@ -87,84 +87,15 @@ export default function AuthorLayout({ children, frontMatter }) {
               </Link>
             </p>
             <br />
-            <p className="sm:block md:hidden lg:hidden">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to
-              <span className="font-semibold">
-                {' '}
-                Natural Language Processing and Machine Learning.{' '}
-              </span>
-              At the same time I am{' '}
-              <RoughNotation
-                type="underline"
-                show={true}
-                color="#FBCFE8"
-                animationDelay={1500}
-                animationDuration={3000}
-                multiline={true}
-              >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science.
-              </RoughNotation>
-            </p>
-            <p className="hidden md:block">
-              I am always looking to learn new things. I am currently working on a few projects
-              related to{' '}
-              <RoughNotation
-                animationDelay="1000"
-                animationDuration="3000"
-                type="highlight"
-                color="#0ea4e9"
-                strokeWidth="3"
-                show={true}
-              >
-                <span className="text-black dark:text-white">
-                  Natural Language Processing and Machine Learning.{' '}
-                </span>
-              </RoughNotation>
-              At the same time I am{' '}
-              <RoughNotation
-                type="underline"
-                show={true}
-                color="#FBCFE8"
-                animationDelay={1500}
-                animationDuration={3000}
-                multiline={true}
-              >
-                actively on the lookout for remote internships which I can pursue in field of Data
-                Science
-              </RoughNotation>
-            </p>
-            <br />
             <p>
-              I am a strong advocate for open source and I am always interested in working on new
-              projects with new people. Feel free to reach out if you have anything to talk about,
-              you can reach me through{' '}
+              With a strong advocacy for open-source and a fervent enthusiasm for Web3 technology, I
+              am constantly seeking new opportunities for collaboration and connection. If you share
+              the same passion, reach me through{' '}
               <Link
-                href={'mailto:desaiparth2000@gmail.com'}
+                href={'mailto:contact@ehsan0x.com'}
                 className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
               >
                 Mail
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  className="ml-0.5 inline-block h-4 w-4 fill-current"
-                >
-                  <g data-name="Layer 2">
-                    <g data-name="external-link">
-                      <rect width="24" height="24" opacity="0" />
-                      <path d="M20 11a1 1 0 0 0-1 1v6a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1h6a1 1 0 0 0 0-2H6a3 3 0 0 0-3 3v12a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3v-6a1 1 0 0 0-1-1z" />
-                      <path d="M16 5h1.58l-6.29 6.28a1 1 0 0 0 0 1.42 1 1 0 0 0 1.42 0L19 6.42V8a1 1 0 0 0 1 1 1 1 0 0 0 1-1V4a1 1 0 0 0-1-1h-4a1 1 0 0 0 0 2z" />
-                    </g>
-                  </g>
-                </svg>
-              </Link>{' '}
-              or{' '}
-              <Link
-                href={'https://api.whatsapp.com/send?phone=916358190818&text=hi'}
-                className="special-underline no-underline hover:text-gray-100 dark:text-gray-100 hover:dark:text-gray-100"
-              >
-                Whatsapp
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -193,11 +124,12 @@ export default function AuthorLayout({ children, frontMatter }) {
             <br />
             <h1>About this site</h1>
             <p>
-              Welcome to my home on the internet. This site functions as a blog/portfolio, a place
-              to share code and thoughts. Opinions are my own.
+              This is my home on the internet. You can find my blogs, code snippets, and my
+              portfolio here. Opinions are my own.
             </p>
             <p>
-              I learnt how to build this site from the most awesome people in the community:
+              Shout out to the most awesome people in the community from whom I have learned how to
+              build this website:
               <ul>
                 <li>
                   <Link
@@ -254,7 +186,7 @@ export default function AuthorLayout({ children, frontMatter }) {
             </h1>
           </div>
           <div className="max-w-none pt-8 pb-8 xl:col-span-2">
-            {experienceData.map((d) => (
+            {experiences.map((d) => (
               <Experience
                 key={d.company}
                 title={d.title}

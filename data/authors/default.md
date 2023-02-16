@@ -1,13 +1,13 @@
 ---
-name: Parth Desai
+name: Ehsan Mamakani
 avatar: /static/images/avatar.png
-occupation: Data Engineer
-company: Accenture
-email: desaiparth2000@gmail.com
-twitter: https://twitter.com/lone_Musk
-linkedin: https://www.linkedin.com/in/parth-desai-2bb1b0160/
-github: https://github.com/pycoder2000
-text1: I am an India based Data Engineer with a bachelors in Computer Science. I am passionate about Data Science and Automation. I am also fascinated with Mathematics and wish to make a career out of it someday.
-text2:
+occupation: Dev stuff
+company: Pong Game Studios
+email: contact@ehsan0x.com
+twitter: https://twitter.com/ehsanmamakani
+linkedin: https://www.linkedin.com/in/ehsanmamakani/
+github: https://github.com/ehsan0x
+text1: Interested in all things tech. A future with AI running most of our lives is what keeps me awake at nights.
+text2: Currently, I am building React web applications at
 text3:
 ---

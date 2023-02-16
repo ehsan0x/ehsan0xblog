@@ -31,7 +31,7 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
     inputEl.current.value = ''
     setError(false)
     setSubscribed(true)
-    setMessage('Successfully! 🎉 You are now subscribed.')
+    setMessage('You are now subscribed successfully! 🎉')
   }
 
   return (
@@ -56,9 +56,11 @@ const NewsletterForm = ({ title = 'Subscribe to the newsletter' }) => {
         </div>
         <div className="mt-2 flex w-full rounded-md shadow-sm sm:mt-0 sm:ml-3">
           <button
-            className={`w-full rounded-md border border-primary-500 py-2 px-4 font-medium text-white sm:py-0 ${
-              subscribed ? 'cursor-default' : 'hover:bg-primary-700 dark:hover:bg-primary-400'
-            } focus:outline-none focus:ring-2 focus:ring-primary-600 focus:ring-offset-2 dark:ring-offset-black`}
+            className={`w-full rounded-md border border-primary-500 py-2 px-4 font-medium text-primary-500 dark:text-primary-500 sm:py-0 ${
+              subscribed
+                ? 'cursor-default'
+                : 'hover:bg-primary-500 hover:text-white dark:hover:bg-primary-500 dark:hover:text-white'
+            } focus:outline-none focus:ring-1 focus:ring-primary-500 focus:ring-offset-1 dark:ring-offset-black`}
             type="submit"
             disabled={subscribed}
           >

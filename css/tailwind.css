@@ -64,12 +64,22 @@ input:-webkit-autofill:focus {
   transition: background-color 600000s 0s, color 600000s 0s;
 }
 
-::-moz-selection {
+.dark ::-moz-selection {
   background: #de1d8d;
+}
+.dark ::-webkit-selection {
+  background: #de1d8d;
+}
+.dark ::selection {
+  background: #de1d8d;
+}
+
+::-moz-selection {
+  background: #90e0ef;
 }
 ::-webkit-selection {
-  background: #de1d8d;
+  background: #90e0ef;
 }
 ::selection {
-  background: #de1d8d;
+  background: #90e0ef;
 }

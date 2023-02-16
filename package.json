@@ -1,11 +1,11 @@
 {
-  "name": "parth-desai-blog",
-  "version": "1.5.6",
+  "name": "ehsan0x-blog",
+  "version": "1.0",
   "private": true,
   "author": {
-    "name": "Parth Desai",
-    "email": "desaiparth2000@gmail.com",
-    "url": "https://musing.vercel.app/"
+    "name": "Ehsan Mamakani",
+    "email": "contact@ehsan0x.com",
+    "url": "https://ehsan0x.com/"
   },
   "scripts": {
     "start": "cross-env SOCKET=true node ./scripts/next-remote-watch.js ./data",
@@ -19,7 +19,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pycoder2000/blog.git"
+    "url": "git+https://github.com/ehsan0x/ehsan0xblog.git"
   },
   "dependencies": {
     "@fontsource/inter": "4.5.2",

@@ -1,27 +1,29 @@
 const siteMetadata = {
-  title: 'Blog | Parth Desai',
-  author: 'Parth Desai',
-  headerTitle: 'Mere Musings',
-  description: 'My personal blog where I share my musings',
-  snippets: 'Reuseable code snippets collected by Parth',
+  title: 'ehsan0x Blog',
+  author: 'ehsan0x',
+  headerTitle: 'ehsan0x Blog',
+  description:
+    'my digital corner, where I delve into the latest of React, Blockchain, AI and share my insights on the life of a developer',
+  slogan: 'challenging perspectives, shaping the future',
+  snippets: 'Reuseable code snippets collected by Ehsan',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://musing.vercel.app',
-  siteRepo: 'https://github.com/pycoder2000/blog',
+  siteUrl: 'https://ehsan0x.com',
+  siteRepo: 'https://github.com/ehsna0x/ehsan0xblog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'desaiparth2000@gmail.com',
-  github: 'https://github.com/pycoder2000',
-  twitter: 'https://twitter.com/lone_Musk',
-  linkedin: 'https://www.linkedin.com/in/parth-desai-2bb1b0160/',
-  website: 'https://parthdesai.vercel.app',
+  email: 'contact@ehsan0x.com',
+  github: 'https://github.com/ehsan0x',
+  twitter: 'https://twitter.com/ehsanmamakani',
+  linkedin: 'https://www.linkedin.com/in/ehsanmamakani/',
+  website: 'https://ehsan0x.com',
   locale: 'en-US',
   analytics: {
-    plausibleDataDomain: '', // e.g. tailwind-nextjs-starter-blog.vercel.app
+    plausibleDataDomain: 'ehsan0x.com', // e.g. ehsan0x.com
     simpleAnalytics: false, // true or false
     umamiWebsiteId: '', // e.g. 123e4567-e89b-12d3-a456-426614174000
-    googleAnalyticsId: 'G-F6V2QTJ628', // e.g. UA-000000-2 or G-XXXXXXX
+    googleAnalyticsId: 'G-6T405PRHZ3', // e.g. UA-000000-2 or G-XXXXXXX
   },
   newsletter: {
     provider: 'emailOctopus',
@@ -41,12 +43,12 @@ const siteMetadata = {
       theme: 'light',
       inputPosition: 'bottom',
       lang: 'en',
-      darkTheme: 'dark',
+      darkTheme: 'dark_dimmed',
       themeURL: '',
     },
   },
   socialAccount: {
-    twitter: 'lone_Musk',
+    twitter: 'ehsanmamakani',
   },
 }
 
